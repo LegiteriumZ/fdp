@@ -20,6 +20,8 @@ jobs:
           cache: "gradle"
       - name: Add version info
         run: echo "${{ github.event.head_commit.id }}" > src/main/resources/FDP_GIT_COMMIT_ID
+      - name: Gradlew Permission
+        run: chmod +x ./gradlew
       - name: Build
         run: ./gradlew setupCiWorkspace && ./gradlew build
       - name: Rename build artifacts
