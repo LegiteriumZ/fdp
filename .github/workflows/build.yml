@@ -29,5 +29,5 @@ jobs:
       - name: Upload build artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: SkidSense Client
-          path: build/libs/SkidSenSe Client -${{ github.event.head_commit.id }}.jar
+          name: FDPClient
+          path: build/libs/SkidSense-${{ github.event.head_commit.id }}.jar
