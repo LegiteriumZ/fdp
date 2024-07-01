@@ -20,7 +20,7 @@ import net.ccbluex.liquidbounce.file.config.ConfigManager
 import net.ccbluex.liquidbounce.launch.EnumLaunchFilter
 import net.ccbluex.liquidbounce.launch.LaunchFilterInfo
 import net.ccbluex.liquidbounce.launch.LaunchOption
-import net.ccbluex.liquidbounce.launch.options.LegacyUiLaunchOption
+import net.ccbluex.liquidbounce.launch.data.GuiLaunchOptionSelectMenu
 import net.ccbluex.liquidbounce.script.ScriptManager
 import net.ccbluex.liquidbounce.script.remapper.Remapper
 import net.ccbluex.liquidbounce.ui.cape.GuiCapeManager
@@ -177,7 +177,7 @@ object LiquidBounce {
 
         GuiCapeManager.load()
 
-       // mainMenu = LegacyUiLaunchOption()
+        mainMenu = GuiLaunchOptionSelectMenu()
 
         // Set HUD
         hud = HUD.createDefault()
