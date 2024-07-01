@@ -1,13 +1,13 @@
 [
   {
-    "modid": "fdpclient",
-    "name": "FDPClient",
+    "modid": "skidsense",
+    "name": "SkidSenSe",
     "description": "",
     "version": "${version}",
     "mcversion": "${mcversion}",
-    "url": "https://getfdp.today",
+    "url": "https://binhz.lol",
     "updateUrl": "",
-    "authorList": ["CCBlueX", "UnlegitMC"],
+    "authorList": ["CCBlueX", "UnlegitMC", "LegiteriumZ", "Serenity"],
     "credits": "",
     "logoFile": "",
     "screenshots": [],
